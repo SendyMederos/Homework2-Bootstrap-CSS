@@ -1,0 +1,109 @@
+body, html {
+    height: 100%;
+}
+body nav li a{
+    color: #945c1c;
+    font-size: 18px;
+    text-shadow: .5px .5px .5px rgb(1, 1, 10);
+}
+
+li a:hover{
+  font-size: 22px;
+  color: rgb(231, 228, 10);
+}
+.bg{
+    background-image: url(../picts/Website-Background-Yellow.jpg);
+    position: relative;
+    min-height: 100vh;
+    padding-bottom: 2.5rem;
+}
+
+.bg-nav{
+    background-color:  rgba(38, 136, 182, 0.5);
+}
+nav .sendy {
+    color: #e8f0a2;
+    background-color: #206392;
+   text-shadow: 2px 2px 2px rgb(1, 1, 10);
+   font-size: 2rem;
+}
+main div h1{
+    text-shadow: 4px 4px 2px rgb(228, 238, 184);
+}
+
+.container {
+    height: 100%;
+    min-height: 100%;
+    padding-bottom: -60px;
+    position: relative;
+    height: fit-content;
+    
+}
+
+.main {
+    margin-bottom: 20px;
+    max-width: 600px;
+    
+}
+.overlay {
+    text-align: center;
+    bottom: 0;
+    color: #fff;
+    left: 0;
+    position: absolute;
+    width: 100%;
+
+}
+main div .meimg{
+    width: 200px;
+    border-radius: 20px;
+    box-shadow: 0 4px 8px 0 rgba(7, 7, 7, 0.2), 0 8px 40px 0 rgba(3, 3, 3, 0.19);
+}
+
+footer {
+    padding-top: 20px;
+    width: 100%;
+    clear: both;
+    background-color: rgb(202, 213, 224);
+    text-align: center;
+    height: 60px;
+    margin-bottom: 0;
+    
+    
+
+}
+@media (max-width:764px){
+   
+    .navbar {
+        display: block !important;  
+    }
+
+    ul {
+        text-align: center;
+        margin-left: 25%;
+    }
+
+    .main {
+        max-width: 400px;
+    }
+
+    main div .meimg {
+        align-self: center;
+         width: 300px; 
+    }
+
+    main div p {
+        clear:both;
+    }
+
+    .gonne { 
+        display: none;
+     }
+   
+}
+@media (max-width:860px){
+    main div .meimg {
+        width: 250px;
+
+    }
+}
