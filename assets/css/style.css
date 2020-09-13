@@ -1,13 +1,13 @@
 body, html {
     height: 100%;
 }
-body nav li a{
+body nav li a, div a{
     color: #945c1c;
     font-size: 18px;
     text-shadow: .5px .5px .5px rgb(1, 1, 10);
 }
 
-li a:hover{
+li a:hover, div a {
   font-size: 22px;
   color: rgb(231, 228, 10);
 }
@@ -16,6 +16,13 @@ li a:hover{
     position: relative;
     min-height: 100vh;
     padding-bottom: 2.5rem;
+}
+.cd {
+    width: 40%; 
+}
+.contact {
+    text-align: center;
+    vertical-align: middle;
 }
 
 .bg-nav{
@@ -35,15 +42,14 @@ main div h1{
     height: 100%;
     min-height: 100%;
     padding-bottom: -60px;
-    position: relative;
-    height: fit-content;
+   
     
 }
 
 .main {
     margin-bottom: 20px;
     max-width: 600px;
-    
+    height: 80%;
 }
 .overlay {
     text-align: center;
